@@ -5,7 +5,7 @@ function warnTheSheep(queue) {
 
   const findWolf = reverseQueue.indexOf("wolf");
   if (findWolf === 0) {
-    message = "Please go away and stop eating my sheep";
+    message = "Pls go away and stop eating my sheep";
   } else {
     message = `Oi! Sheep number ${findWolf}! You are about to be eaten by a wolf!`;
   }
