@@ -1,4 +1,4 @@
-## This repository contains live code tests/Questions.
+## This repository contains live code tests/questions.
 
 ##### TO RUN ON YOUR LOCAL :
 
