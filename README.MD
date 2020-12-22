@@ -2,7 +2,7 @@
 
 ##### TO RUN ON YOUR LOCAL :
 
-- Node Index.js & see in your vscode terminal
+- Node Index.js & see in your VScode terminal
 
 ##### OR
 
