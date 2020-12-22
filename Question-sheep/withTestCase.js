@@ -1,9 +1,8 @@
 function warnTheSheep(queue) {
   // your code here
   let message = "";
-  const reverseQueue = [...queue.reverse()];
 
-  const findWolf = reverseQueue.indexOf("wolf");
+  const findWolf = queue.reverse().indexOf("wolf");
   if (findWolf === 0) {
     message = "Pls go away and stop eating my sheep";
   } else {
