@@ -1,15 +1,9 @@
 function warnTheSheep(queue) {
   // your code here
-  let message = "";
-
-  const findWolf = queue.reverse().indexOf("wolf");
-  if (findWolf === 0) {
-    message = "Pls go away and stop eating my sheep";
-  } else {
-    message = `Oi! Sheep number ${findWolf}! You are about to be eaten by a wolf!`;
-  }
-
-  return message;
+  const findWolf = queue.reverse().indexOf("wolf"); // reverse, then find the wolf's index / the location of the wolf
+  
+  // depend on the location, show relative results
+  return findWolf === 0 ? "Pls go away and stop eating my sheep" : `Oi! Sheep number ${findWolf}! You are about to be eaten by a wolf!`;
 }
 
 // Test Function do not edit
