@@ -1,7 +1,7 @@
 ## This Repository contains live-code tests/questions.
 
 ```
-##### TO RUN ON YOUR LOCAL :
+TO RUN ON YOUR LOCAL :
 
 - Node Index.js & see in your VScode terminal
 ```
