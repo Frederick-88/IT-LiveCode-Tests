@@ -8,6 +8,7 @@ TO RUN ON YOUR LOCAL :
 ##### OR
 
 ```
+OTHER WAY :
 - Make index.html and put your .js file in <script> tag
 - then run it in browser & see console
 ```
