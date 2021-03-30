@@ -1,8 +1,5 @@
 function multiply(a) {
   // code here
-  return function (b) {
-    return a * b;
-  };
 }
 
 const Test = (testcase, result) => console.log(testcase === result);
