@@ -1,10 +1,5 @@
 function fizzBuzz(number) {
   // code here
-  for (let index = 1; index <= 100; index++) {
-    let fizz = index % 3 == 0; // divided by 3 will be empty
-    let buzz = index % 5 == 0; // divided by 5 will be empty
-    console.log(fizz ? (buzz ? "FizzBuzz" : "Fizz") : buzz ? "Buzz" : index);
-  }
 }
 
 console.log(fizzBuzz(100));
@@ -13,7 +8,7 @@ console.log(fizzBuzz(100));
 
 // // answer
 // function fizzBuzz(number) {
-//     for (let index = 1; index <= 100; index++) {
+//     for (let index = 1; index <= number; index++) {
 //       let fizz = index % 3 == 0; // divided by 3 will be empty
 //       let buzz = index % 5 == 0; // divided by 5 will be empty
 //       console.log(fizz ? (buzz ? "FizzBuzz" : "Fizz") : buzz ? "Buzz" : index);
