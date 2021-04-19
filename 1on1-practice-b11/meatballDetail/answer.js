@@ -7,8 +7,16 @@ function meatBall(meat, flour, water, recipe) {
 
   // find the lowest number between x,y,z with min and make it solid number with floor
   const meatBallCanMake = Math.floor(Math.min(x, y, z));
-  // console.log(x, y, z, meatBallCanMake);
-
+  // console.log(
+  //   "meat:",
+  //   x,
+  //   ",flour :",
+  //   y,
+  //   ",water :",
+  //   z,
+  //   "--- meatball :",
+  //   meatBallCanMake
+  // );
   if (x == meatBallCanMake && y == meatBallCanMake && z == meatBallCanMake) {
     return `${meatBallCanMake} meat ball`;
   } else {
@@ -30,6 +38,7 @@ function meatBall(meat, flour, water, recipe) {
           : " " + (water - meatBallCanMake * recipe.water) + " water,"
       }`;
 
+    // console.log(text);
     let textList = text.split(",");
     // console.log(textList, "length :", textList.length);
     if (textList.length > 2)
@@ -41,6 +50,7 @@ function meatBall(meat, flour, water, recipe) {
       // console.log(textList.join(","));
       return textList.join(",").slice(0, -1) + " remain"; // -1 at slice = the last part/index of array
     } else {
+      // console.log(textList.join("") + " remain");
       return textList.join("") + " remain";
     }
   }
