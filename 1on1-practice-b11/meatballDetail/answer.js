@@ -1,6 +1,8 @@
 // Level 2
 function meatBall(meat, flour, water, recipe) {
   // CODE HERE
+
+  // see how many each ingredients amount needed to create 1 meatball depends on the recipe
   const x = meat / recipe.meat;
   const y = flour / recipe.flour;
   const z = water / recipe.water;
@@ -48,8 +50,11 @@ function meatBall(meat, flour, water, recipe) {
     // console.log(textList);
     if (textList.length > 3) {
       // console.log(textList.join(","));
+      // console.log(textList.join(",").slice(0, -1));
+      // console.log(textList.join(",").slice(0, -1) + " remain");
       return textList.join(",").slice(0, -1) + " remain"; // -1 at slice = the last part/index of array
     } else {
+      // console.log(textList.join(""));
       // console.log(textList.join("") + " remain");
       return textList.join("") + " remain";
     }
