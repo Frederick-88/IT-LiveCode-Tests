@@ -1,4 +1,3 @@
-// Level 2
 function meatBall(meat, flour, water, recipe) {
   // CODE HERE
 
@@ -52,11 +51,11 @@ function meatBall(meat, flour, water, recipe) {
     if (textList.length > 3) {
       // console.log(textList.join(","));
       // console.log(textList.join(",").slice(0, -1));
-      console.log(textList.join(",").slice(0, -1) + " remain");
+      //   console.log(textList.join(",").slice(0, -1) + " remain");
       return textList.join(",").slice(0, -1) + " remain"; // -1 at slice = the last part/index of array
     } else {
       // console.log(textList.join(""));
-      console.log(textList.join("") + " remain");
+      //   console.log(textList.join("") + " remain");
       return textList.join("") + " remain";
     }
   }
@@ -77,8 +76,6 @@ const tastyRecipe = {
   flour: 1.5,
   water: 1,
 };
-
-// console.log(meatBall(30, 60, 30, standardRecipe));
 
 test(
   meatBall(30, 61.5, 30, standardRecipe),

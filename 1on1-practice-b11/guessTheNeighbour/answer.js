@@ -5,7 +5,6 @@ const main = (data, color) => {
   // Code here
   const findLocation = data.findIndex((item) => item.houseColor === color);
   return data[findLocation + 1].name;
-  // console.log(data[findLocation].name);
 
   // best practice
   // return data[data.findIndex((item) => item.houseColor === color) + 1].name;
