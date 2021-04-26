@@ -1,14 +1,8 @@
 function designerPdfViewer(h, word) {
   // CODE HERE
-    const alphabet = ['a', 'b', 'c', 'd', 'e',
-          'f', 'g', 'h', 'i', 'j',
-          'k', 'l', 'm', 'n', 'o',
-          'p', 'q', 'r', 's', 't',
-          'u', 'v', 'w', 'x', 'y',
-          'z'];
-  
-      let max = 0
-      let wordLength = []
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    let max = 0
+    let wordLength = []
       for(let i = 0; i < word.length; i++) {
           const data = h[alphabet.indexOf(word[i])]
           wordLength.push(data)
