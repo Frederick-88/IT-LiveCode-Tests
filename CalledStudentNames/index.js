@@ -1,4 +1,4 @@
-const studentCalled = (firstData, secondData) => {
+const calledStudentNames = (firstData, secondData) => {
   // do code here
   // answer
   return firstData.filter((item) => secondData.includes(item));
@@ -14,29 +14,29 @@ const test = (testCase, result) => {
 };
 
 test(
-  studentCalled(
+  calledStudentNames(
     ["Andi", "Messi", "Jokowi", "Ronaldo"],
     ["Sebastian", "Rachel", "Jokowi", "Messi"]
   ),
   ["Jokowi", "Messi"]
 );
-test(studentCalled(["Daniel", "Ani", "Budi"], ["Daniel"]), ["Daniel"]);
+test(calledStudentNames(["Daniel", "Ani", "Budi"], ["Daniel"]), ["Daniel"]);
 test(
-  studentCalled(
+  calledStudentNames(
     ["Zoe", "Pearson", "Abraham", "Luis"],
     ["Abraham", "Robert", "Forstman", "Katrina"]
   ),
   ["Abraham"]
 );
 test(
-  studentCalled(
+  calledStudentNames(
     ["Badu", "Gilang", "Silvy"],
     ["Lewandowski", "Buffon", "Mason"]
   ),
   []
 );
 test(
-  studentCalled(
+  calledStudentNames(
     ["Frederick", "Jason", "Upin", "Modric", "Kroos", "Chillwell"],
     ["Frederick", "Jason", "Upin", "Modric", "Kroos", "Chillwell"]
   ),
