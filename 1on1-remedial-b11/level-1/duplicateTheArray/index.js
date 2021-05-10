@@ -9,12 +9,12 @@ const test = (testCase, result) => {
     testCase.sort();
     result.sort();
 
-    for (let i = 0; i < testCase.length; i++) {
+    for (let i = 0; i < result.length; i++) {
       if (testCase[i] !== result[i]) {
         return console.log(false);
       }
-      return console.log(true);
     }
+    return console.log(true);
   } else {
     return console.log(false);
   }
