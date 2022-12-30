@@ -11,6 +11,10 @@ console.log(fizzBuzz(100));
 //     for (let index = 1; index <= number; index++) {
 //       let fizz = index % 3 == 0; // divided by 3 will be empty
 //       let buzz = index % 5 == 0; // divided by 5 will be empty
-//       console.log(fizz ? (buzz ? "FizzBuzz" : "Fizz") : buzz ? "Buzz" : index);
+
+//       if(fizz && buzz) console.log("FizzBuzz");
+//       else if (fizz) console.log("Fizz");  
+//       else if (buzz) console.log('Buzz');
+//       else console.log(index);
 //     }
 //   }
