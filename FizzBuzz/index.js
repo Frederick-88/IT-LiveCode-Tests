@@ -4,7 +4,7 @@ function fizzBuzz(number) {
 
 console.log(fizzBuzz(100));
 // loop that iterates up to 100.
-// while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5.
+// while outputting "Fizz" at multiples of 3, "Buzz" at multiples of 5 and "FizzBuzz" at multiples of 3 and 5.
 
 // // answer
 // function fizzBuzz(number) {
