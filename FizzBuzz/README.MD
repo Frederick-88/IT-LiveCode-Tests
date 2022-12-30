@@ -1,24 +1,24 @@
 # FizzBuzz
 
-Create a for loop that iterates up to 100 while outputting "buzz" at multiples of 3, "fizz" at multiples of 5 and "buzzfizz" at multiples of 3 and 5.
+Create a for loop that iterates up to 100 while outputting "Fizz" at multiples of 3, "Buzz" at multiples of 5 and "FizzBuzz" at multiples of 3 and 5.
 
 ```
 INPUT -> 15
 Output :
 1
 2
-buzz (3)
+Fizz (3)
 4
-fizz (5)
-buzz (6)
+Buzz (5)
+Fizz (6)
 7
 8
-buzz (9)
-fizz (10)
+Fizz (9)
+Buzz (10)
 11
-buzz (12)
+Fizz (12)
 13
 14
-buzzfizz (15)
+FizzBuzz (15)
 
 ```
